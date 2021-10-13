@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+    <style>
+        label
+        {
+            display: block;
+            margin-bottom: 1%;
+            margin-top: 2%  ;
+        }
+        input
+        {
+            display: block;
+            
+        }
+        select
+        {
+            display: block;
+            margin-top: 2%;
+            margin-bottom: 2%;
+        }
+        
+    </style>
+</head>
+<body>
+    <form action="" method="GET">
+        <label for="nombre">nombre</label>
+        <input type="text" name="nombre">
+
+        <label for="apellido">apellido</label>
+        <input type="text" name="apellido" >
+
+        <label for="email">email</label>
+        <input type="email" name="email" >
+
+        <label for="password">password</label>
+        <input type="password" name="password">
+
+        <select name="sexo">
+            <option value="hombre">hombre</option>
+            <option value="mujer">mujer</option>
+        </select>
+
+        pela bola<input type="radio" name="situacion" value="pela bola">
+        clase media<input type="radio" name="situacion" value="clase media">
+        rico<input type="radio" name="situacion" value="rico">
+
+    </form>
+</body>
+</html>
