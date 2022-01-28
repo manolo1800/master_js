@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript" src="e1.js"></script>
+    <link rel="stylesheet" href="e1.css">
+</head>
+<body>
+    
+    <div class="box">     
+        <form action="#" method="POST" id="formulario" onsubmit="return false">
+            <label for="nombre">nombre</label>
+            <input type="text" name="nombre" id="nombre">
+            <span class="error" id="error_nombre"></span><br>
+
+            <label for="apellido">apellido</label>
+            <input type="text" name="apellido" id="apellido">
+            <span class="error" id="error_apellido"></span><br>
+
+            <label for="edad">edad</label>
+            <input type="number" name="edad" id="edad">
+            <span class="error" id="error_edad"></span><br>
+
+            <input type="submit" value="enviar" id="submit">
+        </form>
+    </div>
+    <div class="box dashed">
+        <h3 id="informacion">Informacion del Usuario</h3>
+        <hr>
+        <p>
+            Nombre: <span id="p_nombre"></span>
+        </p>
+
+        <p>
+            Apellido: <span id="p_apellido"></span>
+        </p>
+
+        <p>
+            Edad: <span id="p_edad"></span>
+        </p>
+    </div>
+    
+   
+
+    
+</body>
+</html>
